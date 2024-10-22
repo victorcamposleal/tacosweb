@@ -8,12 +8,16 @@
     ],
     "routes": [
       {
-        "src": "/(.*).html",    
-        "dest": "/public/$1.html"
+        "src": "/api/reviews",
+        "dest": "/index.js"
       },
       {
-        "src": "/(.*)",         
-        "dest": "index.js"
+        "src": "/send-email",
+        "dest": "/index.js"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/index.js"
       }
     ]
   }
