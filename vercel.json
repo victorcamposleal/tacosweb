@@ -2,10 +2,7 @@
     "version": 2,
     
     "routes": [
-      {
-        "src": "/api/reviews",
-        "dest": "/index.js"
-      },
+      
       {
         "src": "/send-email",
         "dest": "/index.js"
