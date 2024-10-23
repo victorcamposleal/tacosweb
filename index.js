@@ -5,7 +5,7 @@ const axios = require('axios');
 
 const app = express();
 const port = 3000;
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Middleware to parse form data
 app.use(express.urlencoded({ extended: true }));

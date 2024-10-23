@@ -23,10 +23,6 @@
       },
       {
         "handle": "filesystem"  
-      },
-      {
-        "src": "/(.*)",  
-        "dest": "/public/$1"
       }
     ]
   }
