@@ -19,6 +19,13 @@ const resources = {
         servicios_descripcion_2:"Taqueros, table set, authentic street food taco shop decoration.",
         reseñas_titulo:"CUSTOMERS",
         reseñas_subtitulo:"REVIEWS",
+        reseñas_subtitulo_1:"Authentic and incredible Mexican food, prepared with professionalism and kindness. Perfect for weddings and events (in my case, the late-night snack). Highly recommended. My guests were very satisfied. Thank you, Víctor and Macarena!!!! Muak.",
+        reseñas_subtitulo_2:"The most amazing tacos in all of northern Spain. If you want to experience true Mexican flavor, this is your place. The tacos and quesadillas are out of this world, and the sauces are from another dimension. These are the most authentic tacos I’ve had since my last trip to Mexico. A 10 for the food and top marks for the chefs!!!!",
+        reseñas_subtitulo_3:"Very tasty tacos and excellent service. The food truck is beautiful, perfect for events.",
+        reseñas_subtitulo_4:"100% Mexican tacos. Great atmosphere, great service, and very friendly.",
+        reseñas_subtitulo_5:"I'm Mexican living in Cantabria, and I can vouch that the tacos are delicious! They also have Mexican beers, and the atmosphere in the food truck is super cozy. Macarena and Víctor prepare everything with quality ingredients but, most importantly, with love. They take care of you with so much warmth.",
+        reseñas_subtitulo_6:"Spectacular. I had heard great things, and they did not disappoint. 100% recommended. The service was excellent. Everything is homemade and very tasty.",
+        reseñas_subtitulo_7:"We enjoyed some delicious cochinita pibil tacos and al pastor tacos, both excellent. The taco tortillas were delicious, and the fillings were prepared with great detail. These tacos are made with care and passion, which is evident in every bite. Outstanding service—if you truly love authentic Mexican flavors, you must visit Tacos Norteños.",
         Galeria_titulo:"Gallery",
         Galeria_subtitulo:"Creating",
         Galeria_subtitulo_2:"Experinces",
@@ -36,6 +43,7 @@ const resources = {
          contact_subtitulo_8:"Monday-Saturday",
          contact_subtitulo_9:"Sunday: cerrado",
          contact_subtitulo_10:"Send Message",
+
 
         
       }
@@ -59,6 +67,13 @@ const resources = {
         servicios_descripcion_2:"Taqueros, montaje mesa, decoración de auténtico puesto tacos.",
         reseñas_titulo:"CLIENTES",
         reseñas_subtitulo:"RESEÑAS",
+        reseñas_subtitulo_1:"Auténtica e increíble comida mexicana, con profesionalidad y dulzura. Ideal para bodas y eventos (en mi caso la recena). Muy recomendable. Mis invitados quedaron muy satisfechos.Gracias Víctor y Macarena!!!! Muak",
+        reseñas_subtitulo_2:"Los tacos mas brutales de todo el norte de España. si quieres vivir una verdadera experiencia mexicana, este es tu sitio. Los tacos y las quesadillas son una locura y la salsas de otra dimensión. Aquí encontrareis los tacos mas auténticos que he probado desde mi último viaje a México. Un 10 a la comida y una matrícula de honor a los Chefs !!!!",
+        reseñas_subtitulo_3:"Tacos muy ricos y trato excelente. El camión es muy bonito, ideal para eventos.",
+        reseñas_subtitulo_4:"Tacos 100% mexicanos. Buen ambiente, buen servicio y muy cercanos.",
+        reseñas_subtitulo_5:"Soy mexicana viviendo en Cantabria y doy fe de que los tacos están riquisimos! Tienen tambien cervezas mexicanas y el ambiente en el foodtruck es super agusto. Macarena y Victor hacen toda la comida con ingredientes de calidad pero sobre todo con cariño, te atienden con mucho cariño",
+        reseñas_subtitulo_6:"Espectaculares. Me habían hablado muy bien y no defraudan. 100% recomendables. Nos han atendido genial. Todo casero y muy rico",
+        reseñas_subtitulo_7:"Hemos degustado unos muy deliciosos tacos de cochinita pibil y otros tacos al pastor, ambos excelentes. La tortilla de los tacos estaba muy rica y los guisos preparados con sumo detalle. Tacos elaborados con mucho esmero y gusto, se nota la pasión y el sentimiento que los dueños imprimen a su cocina. Atención inmejorable, si te gusta el sabor mexicano de verdad, el auténtico, debes visitar Tacos Norteños.",
         Galeria_titulo:"Galería",
         Galeria_subtitulo:"Creando",
         Galeria_subtitulo_2:"Experiencias",
