@@ -17,6 +17,8 @@ const resources = {
         servicios_descripcion_1:"Taqueros, foodtruck, transport, taqueria experience",
               servicios_opcion_2:"Table",
         servicios_descripcion_2:"Taqueros, table set, authentic street food taco shop decoration.",
+        Tacos_titulo:"Products",
+        Tacos_subtitulo:"The",
         reseñas_titulo:"CUSTOMERS",
         reseñas_subtitulo:"REVIEWS",
         reseñas_subtitulo_1:"Authentic and incredible Mexican food, prepared with professionalism and kindness. Perfect for weddings and events (in my case, the late-night snack). Highly recommended. My guests were very satisfied. Thank you, Víctor and Macarena!!!! Muak.",
@@ -43,6 +45,8 @@ const resources = {
          contact_subtitulo_8:"Monday-Saturday",
          contact_subtitulo_9:"Sunday: cerrado",
          contact_subtitulo_10:"Send Message",
+         about_contenido1:"Víctor Campos, a Mexican who has been living in Spain for 10 years, and Macarena Ruiz, with a rich blend of Cantabrian and Sevillian heritage, are both professionally dedicated to the technology sector and thoroughly enjoy Mexican gastronomy and culture. They aim to offer the best tacos at their taco stand during special occasions.",
+         about_contenido2:"At Tacos Norteños, we don't just serve authentic tacos; our commitment is to bring tacos to every customer, providing quality dishes with the best selected products, and offering a warm, family-friendly atmosphere. The main goal of Tacos Norteños is for you to enjoy a unique gastronomic experience, adapting to each customer's individual needs."
 
 
         
@@ -65,6 +69,8 @@ const resources = {
         servicios_descripcion_1:"Taqueros, foodtruck, transporte, experiencia de taquería",
               servicios_opcion_2:"Mesa",
         servicios_descripcion_2:"Taqueros, montaje mesa, decoración de auténtico puesto tacos.",
+        Tacos_titulo:"Productos",
+        Tacos_subtitulo:"Los",
         reseñas_titulo:"CLIENTES",
         reseñas_subtitulo:"RESEÑAS",
         reseñas_subtitulo_1:"Auténtica e increíble comida mexicana, con profesionalidad y dulzura. Ideal para bodas y eventos (en mi caso la recena). Muy recomendable. Mis invitados quedaron muy satisfechos.Gracias Víctor y Macarena!!!! Muak",
@@ -91,6 +97,8 @@ const resources = {
          contact_subtitulo_8:"Lunes-Sábado",
          contact_subtitulo_9:"Domingo: cerrado",
          contact_subtitulo_10:"Enviar Mensaje",
+         about_contenido1:"Víctor Campos, Mexicano instalado en España desde hace 10 años y Macarena Ruiz con mucha mezcla entre Cantabria y Sevilla, dedicados ambos al sector tecnológico de profesión y disfrutones al máximo de la gastronomía y cultura mexicana, queriendo ofrecer los mejores tacos en su puesto taquero en momentos especiales.",
+         about_contenido2:"En Tacos Norteños, no solo servimos autenticos tacos, sino que nuestro compromiso es llevar los tacos a cada cliente, brindando calidad en nuestros platillos con los mejores productos seleccionados, y además ofrcer un ambiente cálido y familiar. El objetivo principal de tacos Norteños es que se disfrute de la experiencia gastronómica única, adaptandonos a cada necesidad de cada cliente."
 
 
 

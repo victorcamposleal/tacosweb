@@ -1499,7 +1499,6 @@ section,
 .book-a-table .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
-
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
@@ -1547,6 +1546,64 @@ section,
     transition: none;
   }
 }
+
+
+/*--------------------------------------------------------------
+# Tacos Section
+--------------------------------------------------------------*/
+.tacos {
+  overflow: hidden;
+}
+
+.tacos .swiper-wrapper {
+  height: auto;
+}
+
+.taco .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.tacos .swiper-pagination .swiper-pagination-bullet {
+  background-color: color-mix(in srgb, var(--default-color), transparent 85%);
+  border: 0;
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+}
+
+.tacos .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--accent-color);
+  opacity: 1;
+}
+
+.tacos .swiper-slide-active {
+  text-align: center;
+}
+ .ingredients {
+  font-family: var(--nav-font);
+  color: color-mix(in srgb, var(--default-color));
+  margin-bottom: 5px;
+}
+
+@media (min-width: 992px) {
+  .tacos .swiper-wrapper {
+    padding: 40px 0;
+  }
+
+  .tacos .swiper-slide-active {
+    background: var(--background-color);
+    border: 6px solid var(--accent-color);
+    padding: 4px;
+    z-index: 1;
+    transform: scale(1.2);
+    transition: none;
+  }
+}
+
+
+
+
 
 /*--------------------------------------------------------------
 # Contact Section

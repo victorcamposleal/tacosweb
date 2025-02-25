@@ -63,6 +63,7 @@
         <ul>
           <li><a href="#hero" class="active" data-i18n="menu_home">Home</a></li>
           <li><a href="#menu" data-i18n="menu_servicios">Servicios</a></li>
+          <li><a href="#tacos" >Tacos</a></li>
           <li><a href="#gallery" data-i18n="menu_galeria">Galería</a></li>
           <li><a href="#about" data-i18n="menu_nosotros">Nosotors</a></li>
           <li><a href="#contact" data-i18n="menu_contacto">Contacto</a></li>
@@ -98,7 +99,7 @@
             </div>
           </div>
           <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-            <img src="assets/img/hero-img.jpg" class="img-fluid animated" alt="">
+            <img src="assets/img/A2315.jpg" class="img-fluid animated" alt="">
           </div>
         </div>
       </div>
@@ -162,15 +163,15 @@
             <div class="row gy-5">
 
               <div class="col-lg-12 menu-item">
-                <a href="assets/img/menu/servicio-item-1.jpg" class="glightbox"><img
-                    src="assets/img/menu/servicio-item-1.jpg" class="menu-img img-fluid" alt=""></a>
+                <a href="assets/img/products/A2322.jpg" class="glightbox"><img
+                    src="assets/img/products/A2322.jpg" class="menu-img img-fluid" alt=""></a>
                 <h4 data-i18n="servicios_opcion_1">Taquería</h4>
                 <p class="ingredients" data-i18n="servicios_descripcion_1">
                   Taqueros, foodtruck, transporte, experiencia de taquería
                 </p>
-                <p class="price">
+                <!--<p class="price">
                   $5.95
-                </p>
+                </p>-->
               </div><!-- Menu Item 
 
               <div class="col-lg-4 menu-item">
@@ -215,20 +216,19 @@
                 <p class="price">
                   $12.95
                 </p>
-              </div>< 
+              </div> <!-->
 
-              <div class="col-lg-6 menu-item">
-                <a href="assets/img/menu/servicio-item-6.jpeg" class="glightbox"><img
-                    src="assets/img/menu/servicio-item-6.jpeg" class="menu-img img-fluid" alt=""></a>
+              <div class="col-lg-12 menu-item">
+                <a href="assets/img/products/A2395.jpg" class="glightbox"><img
+                    src="assets/img/products/A2395.jpg" class="menu-img img-fluid" alt=""></a>
                 <h4 data-i18n="servicios_opcion_2">Mesa</h4>
                 <p class="ingredients" data-i18n="servicios_descripcion_2">
                   Taqueros, montaje mesa, decoración de auténtico puesto tacos.
                 </p>
-                <p class="price">
+                <!-- <p class="price">
                   $9.95
-                </p>
-              </div> -->
-
+                </p>-->
+              </div> 
             </div>
           </div><!-- End Starter Menu Content -->
 
@@ -491,16 +491,109 @@
     </section><!-- /Menu Section -->
 
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section light-background">
+    <!-- About Section -->
+    <section id="about" class="about section aos-init aos-animate">
+
+
+
+      <div class="container" >
+
+        <div class="row gy-4">
+          <div class="col-lg-12" >
+          
+            <div class="book-a-table">
+              <h3 data-i18n="about_subtitulo_3">Reserva para tu evento.</h3>
+              <p>+34 679 891 075</p>
+            </div>
+        
+          
+
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+
+     <!-- Tacos Section -->
+     <section id="tacos" class="gallery section light-background">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title" >
+        <h2  data-i18n="Tacos_titulo" >Productos</h2>
+        <p><span data-i18n="Tacos_subtitulo">Los</span> <span class="description-title" data-i18n="Galeria_subtitulo_2">Tacos</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "centeredSlides": true,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 0
+                },
+                "768": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                },
+                "1200": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/products/A2501.jpg"><img src="assets/img/products/A2501.jpg" class="img-fluid"
+                  alt=""></a><P class="ingredients" >Tinga</P></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/products/A2478.jpg"><img src="assets/img/products/A2478.jpg" class="img-fluid"
+                  alt=""></a><p>Pastor</p></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/products/A2450.jpg"><img src="assets/img/products/A2450.jpg" class="img-fluid"
+                  alt=""><p>Ingredientes</p></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/products/A2535.jpg"><img src="assets/img/products/A2535.jpg" class="img-fluid"
+                  alt=""></a><p>Cochinita</p></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/products/A2446"><img src="assets/img/products/A2446.jpg" class="img-fluid"
+                  alt=""></a><p>Ingredientes</p></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Gallery Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title">
         <h2 data-i18n="reseñas_titulo">clientes</h2>
         <p data-i18n="reseñas_subtitulo">Reseñas<span class="description-title"></span></p>
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container">
 
         <div class="swiper init-swiper">
           <script type="application/json" class="swiper-config">
@@ -536,7 +629,7 @@
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
                       <h3>Sara Roiz</h3>
-                      <p><a href=https://es.restaurantguru.com/Tacos-Nortenos-Limpias/reviews?bylang=1"
+                      <p><a href=https://es.restaurantguru.com/Tacos-Nortenos-Limpias
                           target="_blank">Ver mas opiniones</a>
                       </p>
                       <div class="stars">
@@ -565,7 +658,7 @@
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
                       <h3>PEDRO VALERO DIAZ</h3>
-                      <p><a href=https://es.restaurantguru.com/Tacos-Nortenos-Limpias/reviews?bylang=1"
+                      <p><a href=https://es.restaurantguru.com/Tacos-Nortenos-Limpias
                           target="_blank">Ver mas opiniones</a>
                       </p>
                       <div class="stars">
@@ -590,7 +683,7 @@
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
                       <h3>Ana Redondo Castillo</h3>
-                      <p><a href=https://es.restaurantguru.com/Tacos-Nortenos-Limpias/reviews?bylang=1"
+                      <p><a href=https://es.restaurantguru.com/Tacos-Nortenos-Limpias
                           target="_blank">Ver mas opiniones</a>
                       </p>
                       <div class="stars">
@@ -614,7 +707,7 @@
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
                       <h3>DAVID MONTALBAN </h3>
-                      <p><a href=https://es.restaurantguru.com/Tacos-Nortenos-Limpias/reviews?bylang=1"
+                      <p><a href=https://es.restaurantguru.com/Tacos-Nortenos-Limpias
                           target="_blank">Ver mas opiniones</a>
                       </p>
                       <div class="stars">
@@ -642,7 +735,7 @@
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
                       <h3>Leonor Ruiz</h3>
-                      <p><a href=https://es.restaurantguru.com/Tacos-Nortenos-Limpias/reviews?bylang=1"
+                      <p><a href=https://es.restaurantguru.com/Tacos-Nortenos-Limpias
                           target="_blank">Ver mas opiniones</a>
                       </p>
                       <div class="stars">
@@ -668,7 +761,7 @@
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
                       <h3>José Pedro Martín</h3>
-                      <p><a href=https://es.restaurantguru.com/Tacos-Nortenos-Limpias/reviews?bylang=1"
+                      <p><a href=https://es.restaurantguru.com/Tacos-Nortenos-Limpias
                           target="_blank">Ver mas opiniones</a>
                       </p>
                       <div class="stars">
@@ -697,7 +790,7 @@
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
                       <h3>Héctor González</h3>
-                      <p><a href=https://es.restaurantguru.com/Tacos-Nortenos-Limpias/reviews?bylang=1"
+                      <p><a href=https://es.restaurantguru.com/Tacos-Nortenos-Limpias
                           target="_blank">Ver mas opiniones</a>
                       </p>
                       <div class="stars">
@@ -800,47 +893,32 @@
     <section id="about" class="about section aos-init aos-animate">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title">
         <h2 data-i18n="about_titulo" >Nostros<br></h2>
         <p><span data-i18n="about_subtitulo"  >El</span> <span class="description-title" data-i18n="about_subtitulo_2" >Equipo</span></p>
       </div><!-- End Section Title -->
 
-      <div class="container">
+      <div class="container" >
 
         <div class="row gy-4">
-          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid mb-4" alt="">
-            <div class="book-a-table">
-              <h3 data-i18n="about_subtitulo_3">Reserva para tu evento.</h3>
-              <p>+34 679 891 075</p>
-            </div>
+          <div class="col-lg-7" >
+            <img src="assets/img/A2597.jpg" class="img-fluid mb-4" alt="">
+        
           </div>
-          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-5" >
             <div class="content ps-0 ps-lg-5">
-              <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua.
+              <p class="fst-italic" data-i18n="about_contenido1">
+                Víctor Campos, Mexicano instalado en España desde hace 10 años y Macarena Ruiz con mucha mezcla entre Cantabria y Sevilla, dedicados ambos al sector tecnológico de profesión y disfrutones al máximo de la gastronomía y cultura mexicana, queriendo ofrecer los mejores tacos en su puesto taquero en momentos especiales.
               </p>
-              <ul>
-                <li><i class="bi bi-check-circle-fill"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</span></li>
-                <li><i class="bi bi-check-circle-fill"></i> <span>Duis aute irure dolor in reprehenderit in voluptate
-                    velit.</span></li>
-                <li><i class="bi bi-check-circle-fill"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore
-                    eu fugiat nulla pariatur.</span></li>
-              </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+    
+              <p data-i18n="about_contenido2">
+                En Tacos Norteños, no solo servimos autenticos tacos, sino que nuestro compromiso es llevar los tacos a cada cliente, brindando calidad en nuestros platillos con los mejores productos seleccionados, y además ofrcer un ambiente cálido y familiar. El objetivo principal de tacos Norteños es que se disfrute de la experiencia gastronómica única, adaptandonos a cada necesidad de cada cliente,
               </p>
 
-              <div class="position-relative mt-4">
+             <!-- <div class="position-relative mt-4">
                 <img src="assets/img/about-2.jpg" class="img-fluid" alt="">
                 <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
-              </div>
+              </div>-->
             </div>
           </div>
         </div>
@@ -851,10 +929,10 @@
 
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <section id="contact" class="contact section light-background">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title" >
         <h2 data-i18n="contact_subtitulo" >Contacto</h2>
         <p><span data-i18n="contact_subtitulo_2">¿Necesitas información?</span> <span class="description-title" data-i18n="contact_subtitulo_3">contáctanos</span></p>
 
@@ -867,19 +945,17 @@
           <div class="row gy-4">
 
             <div class="col-md-6">
-              <div class="info-item d-flex align-items-center aos-init aos-animate" data-aos="fade-up"
-                data-aos-delay="200">
+              <div class="info-item d-flex align-items-center aos-init aos-animate" >
                 <i class="icon bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h3 data-i18n="contact_subtitulo_4">Dirección</h3>
-                  <p>Calle Sextante 19, Mairena del Aljarafe</p>
+                  <p> Mairena del Aljarafe, Sevilla</p>
                 </div>
               </div>
             </div><!-- End Info Item -->
 
             <div class="col-md-6">
-              <div class="info-item d-flex align-items-center aos-init aos-animate" data-aos="fade-up"
-                data-aos-delay="200">
+              <div class="info-item d-flex align-items-center aos-init aos-animate">
                 <i class="icon bi bi-telephone flex-shrink-0"></i>
                 <div>
                   <h3 data-i18n="contact_subtitulo_5">Teléfono</h3>
@@ -889,8 +965,7 @@
             </div><!-- End Info Item -->
 
             <div class="col-md-6">
-              <div class="info-item d-flex align-items-center aos-init aos-animate" data-aos="fade-up"
-                data-aos-delay="200">
+              <div class="info-item d-flex align-items-center aos-init aos-animate">
                 <i class="icon bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3 data-i18n="contact_subtitulo_6">Email</h3>
@@ -900,8 +975,7 @@
             </div><!-- End Info Item -->
 
             <div class="col-md-6">
-              <div class="info-item d-flex align-items-center aos-init aos-animate" data-aos="fade-up"
-                data-aos-delay="200">
+              <div class="info-item d-flex align-items-center aos-init aos-animate">
                 <i class="icon bi bi-clock flex-shrink-0"></i>
                 <div>
                   <h3 data-i18n="contact_subtitulo_7">Horario<br></h3>
@@ -1309,8 +1383,7 @@
           <i class="bi bi-geo-alt icon"></i>
           <div class="address">
             <h4>Address</h4>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
+            <p>Mairena del Aljarafe, Sevilla</p>
             <p></p>
           </div>
 
@@ -1321,8 +1394,8 @@
           <div>
             <h4>Contact</h4>
             <p>
-              <strong>Phone:</strong> <span>+1 5589 55488 55</span><br>
-              <strong>Email:</strong> <span>info@example.com</span><br>
+              <strong>Phone:</strong> <span>+34 679 891 075</span><br>
+              <strong>Email:</strong> <span>tacosnortenos2022@gmail.com</span><br>
             </p>
           </div>
         </div>
@@ -1352,13 +1425,13 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Yummy</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Tacos Norteños</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">Camru</a>
       </div>
     </div>
 
