@@ -31,7 +31,7 @@ app.post('/send-email', (req, res) => {
         service: 'gmail',
         auth: {
             user: 'tacosnortenos2022@gmail.com',
-            pass: 'mobv beca wivh kcfd'  // Use an App Password for Gmail if 2FA is enabled
+            pass: 'iqbj xwps rwlx uzak'  // Use an App Password for Gmail if 2FA is enabled
         }
 
        
@@ -41,8 +41,8 @@ app.post('/send-email', (req, res) => {
     let mailOptions = {
         from: 'tacosnortenos2022@gmail.com',
         to:  email, // Recipient's email
-        subject:  `${subject} - From ${name}`, // Email subject
-        text: message // Email body
+        subject:  `${subject} - de ${name}`, // Email subject
+        text: `${message} \n\-------------------------\n\ Gracias por tu mensaje. Nos pondremos en contacto contigo.` // Email body
     };
 
     // Send the email
